@@ -7,5 +7,5 @@
     android:layout_height="match_parent"
     android:background="@color/primary"
     android:scaleType="centerCrop"
-    android:src="@mipmap/ic_launcher_background" />
+    android:src="@mipmap/screen" />
 </RelativeLayout>

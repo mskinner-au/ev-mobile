@@ -65,11 +65,11 @@ export default class CentralServerProvider {
       this.debug = true;
       // Debug Axios
       this.axiosInstance.interceptors.request.use((request) => {
-        console.log(new Date().toISOString() + ' - Axios - Request:', request);
+        // console.log(new Date().toISOString() + ' - Axios - Request:', request);
         return request;
       });
       this.axiosInstance.interceptors.response.use((response) => {
-        console.log(new Date().toISOString() + ' - Axios - Response:', response);
+        // console.log(new Date().toISOString() + ' - Axios - Response:', response);
         return response;
       });
     }

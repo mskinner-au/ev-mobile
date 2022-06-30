@@ -1,4 +1,4 @@
-package com.emobility;
+package com.xintyx;
 
 import android.os.Bundle;
 import android.content.Intent;
