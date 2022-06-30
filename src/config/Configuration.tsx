@@ -1,10 +1,10 @@
 import { EndpointCloud } from '../types/Tenant';
 
 export default class Configuration {
-  public static readonly AWS_REST_ENDPOINT_PROD = 'https://rest.e-mobility-group.com';
-  public static readonly AWS_REST_ENDPOINT_QA = 'https://qa-e-mobility-group.com';
+  public static readonly AWS_REST_ENDPOINT_PROD = 'https://rest.xintyx.com';
+  public static readonly AWS_REST_ENDPOINT_QA = 'https://rest.xintyx.com';
 
-  public static readonly CAPTCHA_SITE_KEY = '6Lcmr6EUAAAAAIyn3LasUzk-0MpH2R1COXFYsxNw';
+  public static readonly CAPTCHA_SITE_KEY = '6Le0geIfAAAAAI0z0dT0E165VizqTXO7CDHhu_CK';
 
   public static readonly DEFAULT_ENDPOINT_CLOUD_ID = 'aws';
   public static readonly ENDPOINT_CLOUDS: EndpointCloud[] = [
