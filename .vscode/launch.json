@@ -5,17 +5,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Attach to Hermes application - Experimental",
+      "name": "Attach to Android",
       "request": "attach",
-      "type": "reactnativedirect",
+      "type": "reactnative",
       "cwd": "${workspaceFolder}"
-    },
-    {
-      "name": "Debug Android Hermes - Experimental",
-      "request": "launch",
-      "type": "reactnativedirect",
-      "cwd": "${workspaceFolder}",
-      "platform": "android"
     },
     {
       "type": "chrome",
